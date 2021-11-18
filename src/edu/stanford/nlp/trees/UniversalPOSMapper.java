@@ -23,7 +23,7 @@ public class UniversalPOSMapper  {
   private static final Redwood.RedwoodChannels log = Redwood.channels(UniversalPOSMapper.class);
 
   @SuppressWarnings("WeakerAccess")
-  public static final String DEFAULT_TSURGEON_FILE = "edu/stanford/nlp/models/upos/ENUniversalPOS.tsurgeon";
+  public static final String DEFAULT_TSURGEON_FILE = "C:\\Users\\mkose\\Downloads\\CoreNLP-main\\data\\edu\\stanford\\nlp\\upos\\ENUniversalPOS.tsurgeon";
 
   private static boolean loaded; // = false;
 

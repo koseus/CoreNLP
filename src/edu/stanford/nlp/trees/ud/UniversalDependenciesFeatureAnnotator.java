@@ -46,7 +46,7 @@ public class UniversalDependenciesFeatureAnnotator  {
   private static final Redwood.RedwoodChannels log = Redwood.channels(UniversalDependenciesFeatureAnnotator.class);
 
 
-  private static final String FEATURE_MAP_FILE = "edu/stanford/nlp/models/ud/feature_map.txt";
+  private static final String FEATURE_MAP_FILE = "C:\\Users\\mkose\\Downloads\\CoreNLP-main\\data\\edu\\stanford\\nlp\\ud\\feature_map.txt";
   private HashMap<String,HashMap<String,String>> posFeatureMap;
   private HashMap<String,HashMap<String,String>> wordPosFeatureMap;
 
@@ -462,7 +462,7 @@ public class UniversalDependenciesFeatureAnnotator  {
 
     UniversalDependenciesFeatureAnnotator featureAnnotator = new UniversalDependenciesFeatureAnnotator();
 
-    Reader r = IOUtils.readerFromString(coNLLUFile);
+    Reader r = IOUtils.readerFromString(coNLLUFile, "UTF_16");
     CoNLLUDocumentReader depReader = new CoNLLUDocumentReader();
     CoNLLUDocumentWriter depWriter = new CoNLLUDocumentWriter();
     Iterator<Pair<SemanticGraph, SemanticGraph>> it = depReader.getIterator(r);
@@ -481,9 +481,7 @@ public class UniversalDependenciesFeatureAnnotator  {
           sentenceSb.append(' ');
         }
 
-        throw new RuntimeException("CoNLL-U file and tree file are not aligned. \n"
-                + "Sentence: " + sentenceSb + '\n'
-                + "Tree: " + ((t == null) ? "null" : t.pennString()));
+        throw new RuntimeException("Files are not aligned\n");
       }
 
       featureAnnotator.addFeatures(sg, t, true, addUPOS);

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="81" failures="0" name="edu.stanford.nlp.util.ConvertByteArrayTest" time="0.003" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="15.0.1+9-18"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-15.0.1\bin"/>
+    <property name="user.country.format" value="TR"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\mkose\Downloads\CoreNLP-main"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\mkose\Downloads\CoreNLP-main"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="java.runtime.version" value="15.0.1+9-18"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\mkose\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Program Files\apache-maven-3.8.3\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-15.0.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Gradle\gradle-7.2\bin;C:\Program Files\apache-maven-3.8.3\bin;C:\Program Files\dotnet\;C:\Users\mkose\AppData\Local\Microsoft\WindowsApps;C:\Users\mkose\AppData\Local\Programs\MiKTeX\miktex\bin\x64\;C:\Users\mkose\.dotnet\tools;."/>
+    <property name="maven.conf" value="C:\Program Files\apache-maven-3.8.3/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="59.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\Program Files\apache-maven-3.8.3\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\mkose"/>
+    <property name="user.timezone" value="Europe/Istanbul"/>
+    <property name="file.encoding" value="Cp1254"/>
+    <property name="java.specification.version" value="15"/>
+    <property name="user.name" value="mkose"/>
+    <property name="java.class.path" value="C:\Program Files\apache-maven-3.8.3\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="15"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher package"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-15.0.1"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language.format" value="tr"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="15.0.1"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="maven.home" value="C:\Program Files\apache-maven-3.8.3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2020-10-20"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="edu.stanford.nlp.util.ConvertByteArrayTest" name="testUStringArrToByteArr1" time="0.002"/>
+  <testcase classname="edu.stanford.nlp.util.ConvertByteArrayTest" name="testUStringArrToByteArr2" time="0"/>
+  <testcase classname="edu.stanford.nlp.util.ConvertByteArrayTest" name="testUStringArrToByteArr3" time="0"/>
+  <testcase classname="edu.stanford.nlp.util.ConvertByteArrayTest" name="testUStringArrToByteArr4" time="0"/>
+  <testcase classname="edu.stanford.nlp.util.ConvertByteArrayTest" name="testWriteBooleanToByteArr" time="0"/>
+  <testcase classname="edu.stanford.nlp.util.ConvertByteArrayTest" name="testIntArrToByteArr1" time="0"/>
+  <testcase classname="edu.stanford.nlp.util.ConvertByteArrayTest" name="testIntArrToByteArr2" time="0"/>
+  <testcase classname="edu.stanford.nlp.util.ConvertByteArrayTest" name="testIntArrToByteArr3" time="0"/>
+  <testcase classname="edu.stanford.nlp.util.ConvertByteArrayTest" name="testByteArrToFloat" time="0"/>
+  <testcase classname="edu.stanford.nlp.util.ConvertByteArrayTest" name="testByteArrToShort" time="0"/>
+  <testcase classname="edu.stanford.nlp.util.ConvertByteArrayTest" name="testByteArrToIntArr1" time="0"/>
+  <testcase classname="edu.stanford.nlp.util.ConvertByteArrayTest" name="testByteArrToIntArr2" time="0"/>
+  <testcase classname="edu.stanford.nlp.util.ConvertByteArrayTest" name="testByteArrToIntArr3" time="0"/>
+  <testcase classname="edu.stanford.nlp.util.ConvertByteArrayTest" name="testDoubleArrToByteArr1" time="0"/>
+  <testcase classname="edu.stanford.nlp.util.ConvertByteArrayTest" name="testDoubleArrToByteArr2" time="0"/>
+  <testcase classname="edu.stanford.nlp.util.ConvertByteArrayTest" name="testDoubleArrToByteArr3" time="0"/>
+  <testcase classname="edu.stanford.nlp.util.ConvertByteArrayTest" name="testWriteIntToByteArr" time="0"/>
+  <testcase classname="edu.stanford.nlp.util.ConvertByteArrayTest" name="testByteArrToAStringArr1" time="0"/>
+  <testcase classname="edu.stanford.nlp.util.ConvertByteArrayTest" name="testByteArrToAStringArr2" time="0"/>
+  <testcase classname="edu.stanford.nlp.util.ConvertByteArrayTest" name="testByteArrToAStringArr3" time="0"/>
+  <testcase classname="edu.stanford.nlp.util.ConvertByteArrayTest" name="testByteArrToAStringArr4" time="0"/>
+  <testcase classname="edu.stanford.nlp.util.ConvertByteArrayTest" name="testWriteLongToByteArr" time="0"/>
+  <testcase classname="edu.stanford.nlp.util.ConvertByteArrayTest" name="testWriteAStringToByteArr" time="0"/>
+  <testcase classname="edu.stanford.nlp.util.ConvertByteArrayTest" name="testByteArrToBooleanArr1" time="0"/>
+  <testcase classname="edu.stanford.nlp.util.ConvertByteArrayTest" name="testByteArrToBooleanArr2" time="0"/>
+  <testcase classname="edu.stanford.nlp.util.ConvertByteArrayTest" name="testByteArrToBooleanArr3" time="0"/>
+  <testcase classname="edu.stanford.nlp.util.ConvertByteArrayTest" name="testByteArrToAString1" time="0"/>
+  <testcase classname="edu.stanford.nlp.util.ConvertByteArrayTest" name="testByteArrToAString2" time="0"/>
+  <testcase classname="edu.stanford.nlp.util.ConvertByteArrayTest" name="testByteArrToCharArr1" time="0"/>
+  <testcase classname="edu.stanford.nlp.util.ConvertByteArrayTest" name="testByteArrToCharArr2" time="0"/>
+  <testcase classname="edu.stanford.nlp.util.ConvertByteArrayTest" name="testByteArrToCharArr3" time="0"/>
+  <testcase classname="edu.stanford.nlp.util.ConvertByteArrayTest" name="testByteArrToUString1" time="0"/>
+  <testcase classname="edu.stanford.nlp.util.ConvertByteArrayTest" name="testByteArrToUString2" time="0"/>
+  <testcase classname="edu.stanford.nlp.util.ConvertByteArrayTest" name="testStringAToByteArr1" time="0"/>
+  <testcase classname="edu.stanford.nlp.util.ConvertByteArrayTest" name="testStringAToByteArr2" time="0"/>
+  <testcase classname="edu.stanford.nlp.util.ConvertByteArrayTest" name="testByteArrToLongArr1" time="0"/>
+  <testcase classname="edu.stanford.nlp.util.ConvertByteArrayTest" name="testByteArrToLongArr2" time="0"/>
+  <testcase classname="edu.stanford.nlp.util.ConvertByteArrayTest" name="testByteArrToLongArr3" time="0"/>
+  <testcase classname="edu.stanford.nlp.util.ConvertByteArrayTest" name="testWriteShortToByteArr" time="0"/>
+  <testcase classname="edu.stanford.nlp.util.ConvertByteArrayTest" name="testLongArrToByteArr1" time="0"/>
+  <testcase classname="edu.stanford.nlp.util.ConvertByteArrayTest" name="testLongArrToByteArr2" time="0"/>
+  <testcase classname="edu.stanford.nlp.util.ConvertByteArrayTest" name="testLongArrToByteArr3" time="0"/>
+  <testcase classname="edu.stanford.nlp.util.ConvertByteArrayTest" name="testByteArrToDoubleArr1" time="0"/>
+  <testcase classname="edu.stanford.nlp.util.ConvertByteArrayTest" name="testByteArrToDoubleArr2" time="0"/>
+  <testcase classname="edu.stanford.nlp.util.ConvertByteArrayTest" name="testByteArrToDoubleArr3" time="0"/>
+  <testcase classname="edu.stanford.nlp.util.ConvertByteArrayTest" name="testShortArrToByteArr1" time="0"/>
+  <testcase classname="edu.stanford.nlp.util.ConvertByteArrayTest" name="testShortArrToByteArr2" time="0"/>
+  <testcase classname="edu.stanford.nlp.util.ConvertByteArrayTest" name="testShortArrToByteArr3" time="0"/>
+  <testcase classname="edu.stanford.nlp.util.ConvertByteArrayTest" name="testWriteCharToByteArr" time="0"/>
+  <testcase classname="edu.stanford.nlp.util.ConvertByteArrayTest" name="testByteArrToBoolean" time="0"/>
+  <testcase classname="edu.stanford.nlp.util.ConvertByteArrayTest" name="testBooleanArrToByteArr1" time="0"/>
+  <testcase classname="edu.stanford.nlp.util.ConvertByteArrayTest" name="testBooleanArrToByteArr2" time="0"/>
+  <testcase classname="edu.stanford.nlp.util.ConvertByteArrayTest" name="testBooleanArrToByteArr3" time="0"/>
+  <testcase classname="edu.stanford.nlp.util.ConvertByteArrayTest" name="testWriteUStringToByteArr1" time="0"/>
+  <testcase classname="edu.stanford.nlp.util.ConvertByteArrayTest" name="testWriteUStringToByteArr2" time="0"/>
+  <testcase classname="edu.stanford.nlp.util.ConvertByteArrayTest" name="testWriteDoubleToByteArr" time="0"/>
+  <testcase classname="edu.stanford.nlp.util.ConvertByteArrayTest" name="testCharArrToByteArr1" time="0"/>
+  <testcase classname="edu.stanford.nlp.util.ConvertByteArrayTest" name="testCharArrToByteArr2" time="0"/>
+  <testcase classname="edu.stanford.nlp.util.ConvertByteArrayTest" name="testCharArrToByteArr3" time="0"/>
+  <testcase classname="edu.stanford.nlp.util.ConvertByteArrayTest" name="testByteArrToChar" time="0"/>
+  <testcase classname="edu.stanford.nlp.util.ConvertByteArrayTest" name="testByteArrToLong" time="0"/>
+  <testcase classname="edu.stanford.nlp.util.ConvertByteArrayTest" name="testByteArrToDouble" time="0"/>
+  <testcase classname="edu.stanford.nlp.util.ConvertByteArrayTest" name="testByteArrToFloatArr1" time="0"/>
+  <testcase classname="edu.stanford.nlp.util.ConvertByteArrayTest" name="testByteArrToFloatArr2" time="0"/>
+  <testcase classname="edu.stanford.nlp.util.ConvertByteArrayTest" name="testByteArrToFloatArr3" time="0"/>
+  <testcase classname="edu.stanford.nlp.util.ConvertByteArrayTest" name="testByteArrToShortArr1" time="0"/>
+  <testcase classname="edu.stanford.nlp.util.ConvertByteArrayTest" name="testByteArrToShortArr2" time="0"/>
+  <testcase classname="edu.stanford.nlp.util.ConvertByteArrayTest" name="testByteArrToShortArr3" time="0"/>
+  <testcase classname="edu.stanford.nlp.util.ConvertByteArrayTest" name="testAStringArrToByteArr1" time="0"/>
+  <testcase classname="edu.stanford.nlp.util.ConvertByteArrayTest" name="testAStringArrToByteArr2" time="0"/>
+  <testcase classname="edu.stanford.nlp.util.ConvertByteArrayTest" name="testAStringArrToByteArr3" time="0"/>
+  <testcase classname="edu.stanford.nlp.util.ConvertByteArrayTest" name="testAStringArrToByteArr4" time="0"/>
+  <testcase classname="edu.stanford.nlp.util.ConvertByteArrayTest" name="testByteArrToUStringArr1" time="0"/>
+  <testcase classname="edu.stanford.nlp.util.ConvertByteArrayTest" name="testByteArrToUStringArr2" time="0"/>
+  <testcase classname="edu.stanford.nlp.util.ConvertByteArrayTest" name="testByteArrToUStringArr3" time="0"/>
+  <testcase classname="edu.stanford.nlp.util.ConvertByteArrayTest" name="testByteArrToUStringArr4" time="0"/>
+  <testcase classname="edu.stanford.nlp.util.ConvertByteArrayTest" name="testByteArrToInt" time="0"/>
+  <testcase classname="edu.stanford.nlp.util.ConvertByteArrayTest" name="testFloatArrToByteArr1" time="0"/>
+  <testcase classname="edu.stanford.nlp.util.ConvertByteArrayTest" name="testFloatArrToByteArr2" time="0.001"/>
+  <testcase classname="edu.stanford.nlp.util.ConvertByteArrayTest" name="testFloatArrToByteArr3" time="0"/>
+  <testcase classname="edu.stanford.nlp.util.ConvertByteArrayTest" name="testWriteFloatToByteArr" time="0"/>
+</testsuite>
